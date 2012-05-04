@@ -32,7 +32,9 @@ switch($action) {
 <body>
   <div id="contentarea">
     <div id="innercontentarea">
-      <h1>Creador de Post del Blog</h1>
+      <div id="logotype">
+        <h1>Creador de Post del Blog</h1>
+      </div>
       <?php if ($action === 'show_form'): ?>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <h3>Titulo</h3>

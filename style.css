@@ -50,7 +50,13 @@ div#navigation div.page-number { float:left; width:20%; }
 div#navigation div.next { float:right; width:40%; }
 .clear { clear:both;}
 
-
-#logotype {
-  
+div#logotype {
+  background: #fff url("images/logo88x100.png") 0 0 no-repeat;
+  padding-left:100px;
+  float:left;
+  font-size:1.3em;
+  padding-top:20px;
+  width:70%;
 }
+
+

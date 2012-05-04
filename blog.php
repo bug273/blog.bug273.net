@@ -24,9 +24,8 @@
   <div id="contentarea">
     <div id="innercontentarea">
       <div id="logotype">
-        <a href="blogs.php">
-       <span> <img src="images/logo88x100.png" alt="Inicio"></a>
-      <h1>Posts</h1></span></div>
+        <h1>Posts</h1>
+      </div>
       <h2><?php echo $article['title']; ?></h2>
       <p><?php echo $article['content']; ?></p>
     </div>
@@ -40,10 +39,7 @@
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
-      <noscript>Please enable JavaScript to view the <<a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-<!--<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a> -->
-
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments.</a></noscript>
   </div>
 </body>
 </html>

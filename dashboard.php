@@ -39,7 +39,9 @@ $cursor->sort(array('saved_at' => -1))->skip($skip)->limit($articlesPerPage);
 <body>
   <div id="contentarea">
     <div id="innercontentarea">
-      <h1>Dashboard</h1>
+      <div id="logotype">
+        <h1>Dashboard</h1>
+      </div>
       <table class="articles" cellspacing="0" cellpadding="0">
         <thead>
           <tr>

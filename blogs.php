@@ -19,7 +19,9 @@ $cursor = $collection->find();
 <body>
   <div id="contentarea">
     <div id="innercontentarea">
-      <h1>Posts</h1>
+      <div id="logotype">
+        <h1>Posts</h1>
+      </div>
       <?php while ($cursor->hasNext()):
         $article = $cursor->getNext(); ?>
       <h2><?php echo $article['title']; ?></h2>
