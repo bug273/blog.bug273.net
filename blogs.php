@@ -13,17 +13,18 @@ $cursor = $collection->find();
   <head>
     <meta http-equiv="Content-Type" content="text/html; chaset=utf-8" />
       <link rel="stylesheet" href="style.css" />
-      <title>Mi blog</title>
+       <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico" />
+      <title>Blog</title>
   </head>
 <body>
   <div id="contentarea">
     <div id="innercontentarea">
-      <h1>Mis Blogs</h1>
+      <h1>Posts</h1>
       <?php while ($cursor->hasNext()):
         $article = $cursor->getNext(); ?>
       <h2><?php echo $article['title']; ?></h2>
       <p><?php echo substr($article['content'], 0, 200) . '...'; ?></p>
-      <a href="blog.php?id=<?php echo $article['_id']; ?>">Leer mas</a>
+      <a href="blog.php?id=<?php echo $article['_id']; ?>">Leer m&aacute;s</a>
       <?php endwhile; ?>
     </div>
   </div>

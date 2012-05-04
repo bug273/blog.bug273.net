@@ -26,6 +26,7 @@ switch($action) {
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <link rel="stylesheet" href="style.css" />
+      <link rel="shortcut icon" type="image/x-icon"  href="http://blog.bug273.net/images/favicon.ico" />
       <title>Editor de Posts del Blog</title>
   </head>
 <body>

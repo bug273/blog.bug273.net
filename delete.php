@@ -14,6 +14,7 @@ $articleCollection->remove(array('_id' => new MongoId($id)));
   <head>  
     <meta charset="UTF-8"> 
     <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" type="image/x-icon"  href="http://blog.bug273.net/images/favicon.ico" />
     <title>Post del Blog</title>
   </head>
 <body>

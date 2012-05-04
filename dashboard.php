@@ -21,6 +21,7 @@ $cursor->sort(array('saved_at' => -1))->skip($skip)->limit($articlesPerPage);
   <head>
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" type="image/x-icon"  href="http://blog.bug273.net/images/favicon.ico" />
     <style type="text/css" media="screen">
       body{ font-size: 13px; }
       div#contentarea{ width: 650px; }

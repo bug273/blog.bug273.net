@@ -1,8 +1,8 @@
 body {
   font-size: 12px;
-  background-color: #e1ddd9;
+  background-color: #fff;
   font-family: Helvetica, Arial;
-  color: #564b47;
+  color: #666;
   padding: 20px;
   margin: 0px;
   text-align: center;
@@ -51,5 +51,6 @@ div#navigation div.next { float:right; width:40%; }
 .clear { clear:both;}
 
 
-
-
+#logotype {
+  
+}
