@@ -59,4 +59,37 @@ div#logotype {
   width:70%;
 }
 
+.volver {
+  text-decoration:none;
+}
 
+#footer-logos {
+  text-align:center;
+}
+
+#footer-logos li {
+  display:inline;
+}
+
+#footer-logos a img {
+  opacity:0.25;
+  border:none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+  filter: alpha(opacity=25);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out
+}
+
+#footer-logos a:hover img,
+#footer-logos a:focus img {
+  opacity:0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  padding-right:15px;
+}
