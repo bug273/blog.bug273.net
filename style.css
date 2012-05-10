@@ -93,3 +93,24 @@ div#logotype {
   transform: scale(1.5);
   padding-right:15px;
 }
+
+div#botoiak input[type="submit"], input[type="reset"] {
+  display:inline;
+  padding:8px 15px;
+  margin-right:15px;
+  font-family:Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  line-height:1;
+  color:#444;
+  border:none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+  background-image: -moz-linear-gradient(0% 100% 90deg, #bbb, #fff);
+  background-color: #fff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -border-radius: 23px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
