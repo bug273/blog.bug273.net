@@ -43,12 +43,28 @@
     </script>
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments.</a></noscript>
   </div>
-  <div id="footer">
-    <ul id="footer-logos">
-      <p><h4>Hecho con:&nbsp;</h4></p>
-      <li><a href="http://www.mongodb.org/"><img src="images/mongodb-logo.png" alt="Mongodb" width="80" height="50" /></a></li>
-      <li><a href="http://php.net/"><img src="images/php-logo.jpg" alt="PHP" width="80" height="50"  /></a></li>
-    </ul>
+
+
+  <div id="footer" class="clearfix">
+    <h4>Hecho con:&nbsp;</h4>
+     <a class="footer-logos" href="http://www.mongodb.org/"><img src="images/mongodb-logo.png" alt="Mongodb" width="80" height="50" /></a>
+     <a class="footer-logos" href="http://php.net/"><img src="images/php-logo.jpg" alt="PHP" width="80" height="50"  /></a>
+  </div> 
+  <div id="estekak">
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style ">
+      <a class="addthis_button_preferred_1"></a>
+      <a class="addthis_button_preferred_2"></a>
+      <a class="addthis_button_preferred_3"></a>
+      <a class="addthis_button_preferred_4"></a>
+      <a class="addthis_button_compact"></a>
+      <a class="addthis_counter addthis_bubble_style"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fadafa016ac3c38"></script>
+  <!-- AddThis Button END -->
+
+ <!-- fin estekak -->
 </body>
 </html>
 

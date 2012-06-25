@@ -129,9 +129,3 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
-
-# $Id: .htaccess,v 1.90.2.5 2010/02/02 07:25:22 dries Exp $
-#AuthType Basic
-#AuthName "Debes introducir una contraseña"
-#AuthUserFile /home/<username>/.htpasswd
-#Require valid-user
